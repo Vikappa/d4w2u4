@@ -52,7 +52,7 @@ public class Customer {
 
     public static Customer genereteRandomCustomer() {
         Faker faker = new Faker(Locale.ITALIAN);
-        String newName = faker.name().firstName() + " " + faker.name().lastName();
+        String newName = faker.name().firstName();
         int newTier = faker.number().numberBetween(1, 3);
         Random random = new Random();
         long newId = random.nextLong();

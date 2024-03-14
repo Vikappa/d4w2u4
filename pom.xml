@@ -21,14 +21,18 @@
             <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
+        <!-- SLF4J API -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.32</version>
+        </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.5.3</version>
-            <scope>test</scope>
+            <version>1.2.11</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.webjars.npm/faker -->
+
         <dependency>
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
